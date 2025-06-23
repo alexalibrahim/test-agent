@@ -26,6 +26,7 @@ def _is_num(data):
     return isinstance(data, int) or isinstance(data, float)
 def _escape(data, quote='"', format=None):
     """Escape special characters in a string."""
+    variabl="hello"
     if format == 'xml':
         return (
             str(data).
