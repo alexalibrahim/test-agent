@@ -70,6 +70,7 @@ class Test(TestCase):
         self.assertIn('"key": "value"', result)
 
 
+
     def test_encode_logstash(self):
         data = {"key": "value"}
         result = encode_logstash(data)
